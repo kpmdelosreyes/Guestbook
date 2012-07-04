@@ -1,0 +1,59 @@
+body, h1, h2, h3, form, input, img, p, label, fieldset, dl, dt, dd, ul, li {margin:0; padding:0;}
+dl, ul {list-style-type:none;}
+a {font:12px; color:#666666; }
+
+#content {width:700px; margin:10px auto 10px auto;}
+#content h2 {height:40px; }
+
+
+
+#content .search {float:left; width:680px; height:auto; }
+
+#content .board_list{float:left; width:680px; height:auto; border-bottom:#cecece 1px solid;}
+#content .board_list th {width:auto; height:25px; line-height:16px; border:#cecece 1px solid;}
+#content .board_list td {width:auto; line-height:29px; text-align:center; font-weight:normal; border:#cecece 1px solid;}
+#content .board_list td.subject {width:300px; line-height:29px; text-align:left; font-weight:normal; padding:0 0 0 10px; border:#cecece 1px solid;}
+
+
+#content .paging {height:11px; width:680px; text-align:center; margin:10px auto 0 auto; float:left;}
+
+#content .board_detail {float:left; width:680px;  margin:0; padding:0; border-top:#bebebe 1px solid;}
+#content .board_detail li {float:left; width:680px; margin:0; padding:0; border-bottom:#cecece 1px solid;}
+#content .board_detail li dl {width:680px;  margin:0; padding:0;}
+#content .board_detail li dl dt {float:left; width:66px; margin:0; padding:8px 19px 7px 19px; text-align:justify; font-weight:bold; }
+#content .board_detail li dl dd {float:left; width:558px; margin:0; padding:8px 0 6px 16px; border-left:#cecece 1px solid;}
+#content .board_detail li dl dd.message {float:left; width:558px; height:170px; margin:0; padding:8px 0 6px 16px; }
+#content .board_detail li dl dd input.fileupload {width:350px;}
+
+#content .board_detail li.submit {text-align:center; width:680px; height:40px; margin:10px;  padding:0;  border-bottom:none;}
+
+
+.pagination{
+	font-size: 100%;
+	outline: 0 none;
+	vertical-align: baseline;
+	margin-top:20px;
+}
+.pagination a, .pages{
+    border: 1px solid #999999;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+    margin: 2px;
+    padding: 5px;
+    text-decoration: none;
+}
+.pagination .current{
+    border: 1px solid #d9d9d9;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+    margin: 2px;
+    padding: 5px;
+}
+.pagination .spacer{
+	border: 0px;
+    margin: 1px;
+    padding: 5px 2px 5px 2px;
+}
+.table_nav_container1 {height:25px;padding:0 4px 0 6px;background:#e4e4e4;display:block;overflow:hidden;clear:both;}
